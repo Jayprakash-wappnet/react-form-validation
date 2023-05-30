@@ -13,7 +13,6 @@ const useStyles = makeStyles((theme) => ({
   },
   actions: {
     justifyContent: "flex-end"
-    // padding: theme.spacing(2)
   }
 }));
 
