@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const SignUp = () => {
+const StudentRegistration = () => {
   const classes = useStyles();
 
   const initialValues = {
@@ -34,7 +34,7 @@ const SignUp = () => {
 
   return (
     <Card className={clsx(classes.root)}>
-      <CardHeader title="Sign Up" />
+      <CardHeader title="Student Registration " />
       <Divider />
 
       <Formik
@@ -213,8 +213,8 @@ const SignUp = () => {
   );
 };
 
-SignUp.propTypes = {
+StudentRegistration.propTypes = {
   className: PropTypes.string
 };
 
-export default SignUp;
+export default StudentRegistration;
